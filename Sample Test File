@@ -1,0 +1,6 @@
+mutation CancelRzpOrder {
+  cancelRzpOrder(order_id: "EC22092198") {
+    order_id
+    status
+  }
+}
